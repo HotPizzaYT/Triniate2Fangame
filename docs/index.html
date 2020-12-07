@@ -1,0 +1,111 @@
+
+<html>
+<head>
+<meta name='viewport' content='width=device-width'>
+<title>Project Triniate</title>
+<style>
+body{padding: 0px; margin: 0px;}
+#topscreen,#bottomscreen{width: 310px; background-color: black; color: white; padding: 5px;}
+#bottomscreen{
+font-size: 12px;
+min-height: 202px;
+}
+#topscreen{
+height: 208px;
+font-size: 16px;
+text-align: center;
+}
+.titleimg{
+position: relative;
+top: 80px;
+text-align: center;
+}
+
+@font-face {
+font-family: trinigan;
+src: url('http://triniate.com/Trinigan.ttf');
+}
+
+.title{
+text-align: center;
+font-size: 14px;
+font-weight: bold;
+}
+
+.welcome_user
+{
+position: absolute;
+top: 200px;
+left: 0px;
+width: 300px;
+text-align: right;
+padding-right: 5px;
+font-size: 12px;
+}
+div.logout
+{
+position: relative;
+float: right;
+top: 0px;
+width: 79px;
+background-color: gray;
+border-left: 1px solid blue;
+border-bottom: 1px solid blue;
+left: 5px;
+top: -5px;
+text-align: center;
+font-size: 14px;
+height: 18px;
+opacity: 0.8;
+}
+a.logoutlink
+{
+color: white;
+text-decoration: none;
+}
+a.logoutlink:visited
+{
+color: white;
+text-decoration: none;
+}
+div.back
+{
+position: relative;
+float: left;
+top: 0px;
+width: 79px;
+background-color: gray;
+border-right: 1px solid blue;
+border-bottom: 1px solid blue;
+left: -5px;
+top: -5px;
+text-align: center;
+font-size: 14px;
+height: 18px;
+opacity: 0.8;
+}
+a.backlink
+{
+color: white;
+text-decoration: none;
+}
+a.backlink:visited
+{
+color: white;
+text-decoration: none;
+}
+</style>
+<script>
+window.onload = function(){document.body.scrollTop = 218;}
+</script>
+</head>
+<body>
+<div id='topscreen'><img class='titleimg' src='http://hotpizzayt.github.io/Triniate2Fangame/triniate2.png'><div class='welcome_user'>Welcome, guest</div></div>
+<div id='bottomscreen'>
+<div class='back'><a href='http://triniate.com' class='backlink'>Play the original Triniate</a></div><div class='logout'><a href='/index.php?logout=yes' class='logoutlink'>Log out</a></div><br><br>
+<p>Welcome to Triniate 2, guest.</p>
+<p>We are currently in process of getting the source code.</p>
+<p><!-- <input type='button' value='Start playing Triniate' oNclick="window.location='login.php';"> --!></p>
+</div>
+</body>
+</html>
